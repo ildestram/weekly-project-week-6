@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <!-- voglio estendere bootstrap usando sass -->
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Weekly Project Week 6</title>
+</head>
+<body>
+    <!-- navbar fixed -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">CODING SCHOOL</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">I nostri corsi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Conosci il team</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="bi-twitter"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="bi-facebook"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="bi-instagram"></i></a></li>
+                    <li class="nav-item"><button type="button" class="btn btn-primary">Scopri una versione diversa!</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main showcase -->
+    <section class="bg-light text-dark p-5 p-lg-0 text-center text-sm-start">
+        <div class="container m-5">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Scopri come diventare un <span class="text-warning">Web Developer</span></h1>
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quam accusamus aut dolorem sed, officia ut magni asperiores et amet?</p>
+                    <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Iscriviti</button>
+                </div>
+                <img src="./img/how-to-become-a-web-developer-it.jpeg" alt="#" class="img-fluid w-50 d-none d-sm-block">
+            </div>
+        </div>
+    </section>
+
+    <!-- boxes/card -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-primary text-light">
+                        <div class="card-body text-center">
+                            <div class="mb-3">
+                                <i class="bi bi-laptop h1"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Streaming</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsa!</p>
+                            <a href="#" class="btn btn-light">Scopri!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-primary text-light">
+                        <div class="card-body text-center">
+                            <div class="mb-3">
+                                <i class="bi bi-people h1"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Community</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsa!</p>
+                            <a href="#" class="btn btn-light">Scopri!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-primary text-light">
+                        <div class="card-body text-center">
+                            <div class="mb-3">
+                                <i class="bi bi-book h1"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Servizi gratuiti</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsa!</p>
+                            <a href="#" class="btn btn-light">Scopri!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section "impara" -->
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="./img/Programming-Fundamentals-with-Python-01-1024x866.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Impara le basi della programmazione</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti accusamus est reprehenderit doloremque! Pariatur dolore quos quasi nisi possimus perspiciatis?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo sit quos doloremque consequuntur corrupti corporis non libero, animi saepe ad obcaecati laboriosam quod facilis necessitatibus eius nesciunt eos harum!</p>
+                    <a href="#" class="btn btn-dark mt-3 text-danger fw-bold">
+                        <i class="bi bi-chevron-right"></i> Scopri di più!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- partnership -->
+    <section id="partnerships" class="partnerships">
+        <div class="container">
+            <div class="row text-center">
+                <h3 class="display-4 mb-3">Le nostre partnership</h3>
+                <div class="separator"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 partnerships-logo"><img src="./img/Netflix-Official-Logo.png" alt="" class="img-fluid"></div>
+                <div class="col-md-3 col-lg-3 partnerships-logo"><img src="./img/Porsche-PNG-Clipart-Background-HD.png" alt="" class="img-fluid"></div>
+                <div class="col-md-3 col-lg-3 partnerships-logo"><img src="./img/Disney+_logo.png" alt="" class="img-fluid"></div>
+                <div class="col-md-3 col-lg-3 partnerships-logo"><img src="./img/IBM_logo.png" alt="" class="img-fluid"></div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    
+</body>
+</html>
