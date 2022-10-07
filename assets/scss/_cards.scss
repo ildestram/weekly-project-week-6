@@ -1,0 +1,10 @@
+.card {
+    background: rgb(194,69,29);
+    background: linear-gradient(90deg, rgba(194,69,29,1) 0%, rgba(121,115,244,1) 0%, rgba(0,255,201,1) 100%);
+    box-shadow: $boxShadow;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: black;
+}
