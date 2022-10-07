@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Fira+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Lato:ital,wght@0,300;1,400;1,700;1,900&family=Mukta:wght@400;500;600;700&family=Noto+Sans:wght@200&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 :root {
   --bs-blue: #0d6efd;
@@ -10774,6 +10775,42 @@ textarea.form-control-lg {
 }
 img {
   border-radius: 40px;
+}
+
+#button-first {
+  background-color: rgb(113, 18, 168);
+}
+
+.navbar-brand {
+  color: rgb(113, 18, 168);
+  font-weight: bold;
+  font-family: "Mukta", sans-serif;
+}
+
+.nav-link {
+  color: rgb(113, 18, 168);
+}
+
+h1, .h1 {
+  color: rgb(113, 18, 168);
+  font-family: "Mukta", sans-serif;
+}
+
+.text {
+  color: black;
+}
+
+.btn {
+  background-color: rgb(113, 18, 168);
+  color: white;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+}
+
+#sec {
+  margin-top: 70px;
 }
 
 /*# sourceMappingURL=styles.css.map */

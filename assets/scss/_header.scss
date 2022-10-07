@@ -1,3 +1,39 @@
 img {
     border-radius: 40px;
 }
+
+#button-first {
+    background-color: $colorTitle;
+}
+
+.navbar-brand {
+    color: $colorTitle;
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
+}
+
+.nav-link {
+    color: $colorTitle;
+}
+
+h1 {
+    color: $colorTitle;
+    font-family: 'Mukta', sans-serif;
+}
+
+.text {
+    color: black;
+}
+
+.btn {
+    background-color: $colorTitle;
+    color: white;
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+#sec {
+    margin-top: 70px;
+}

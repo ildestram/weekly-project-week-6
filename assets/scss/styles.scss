@@ -1,7 +1,15 @@
 // importo il sorgente di bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Fira+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Lato:ital,wght@0,300;1,400;1,700;1,900&family=Mukta:wght@400;500;600;700&family=Noto+Sans:wght@200&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+@import "_variables.scss";
+
+
 @import "_header.scss";
+
+// @import "_variables.scss";
+// RICORDATI DI METTERE PRIMA L'IMPORT DELLE VARIABILI ALTRIMENTI SPACCHI IL COMPUTER COME OGGI!!!!
 
 // importo bootstrap icon per utilizzarlo nell'header
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
