@@ -24,4 +24,30 @@ $boxShadow: 0px 2px 2px black;
     background-color: aliceblue;
     border-radius:50px;
 }
+
+@mixin light-theme {
+    body {
+        background-color: white;
+    }
+}
+
+@mixin dark-theme {
+    body {
+        background-color: rgb(60, 55, 55);
+
+        input[type=checkbox] {
+            height: 0;
+            width: 0;
+            visibility: hidden;
+        }
+    }
+}
+
+@mixin theme-color ($light-theme: true) {
+    @if $light-theme {
+        @include light-theme;
+    }@else {
+        @include dark-theme;
+    }
+}
     
