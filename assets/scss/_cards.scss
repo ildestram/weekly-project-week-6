@@ -9,3 +9,34 @@
     background-color: black;
 }
 
+#image-1 {
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+#reviews {
+    text-align: center;
+}
+
+#partnerships {
+    padding-top: 80px;
+}
+
+#partnerships {
+    @include titles;
+}
+
+#reviews {
+    @include titles;
+}
+
+.carousel-caption {
+    @include carousel;
+}
+
+#h5-carousel {
+    @include titleCarousel;
+}
+

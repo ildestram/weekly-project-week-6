@@ -10825,4 +10825,43 @@ body {
   background-color: black;
 }
 
+#image-1 {
+  border-radius: 50px;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+#reviews {
+  text-align: center;
+}
+
+#partnerships {
+  padding-top: 80px;
+}
+
+#partnerships {
+  font-size: 30px;
+  color: rgb(113, 18, 168);
+  text-shadow: 0px 1px 2px black;
+}
+
+#reviews {
+  font-size: 30px;
+  color: rgb(113, 18, 168);
+  text-shadow: 0px 1px 2px black;
+}
+
+.carousel-caption {
+  font-family: "Mukta", sans-serif;
+  color: black;
+}
+
+#h5-carousel {
+  background-color: aliceblue;
+  border-radius: 50px;
+  width: 400px;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=styles.css.map */
